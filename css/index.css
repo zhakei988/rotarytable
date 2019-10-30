@@ -1,0 +1,24 @@
+body,p,form,fieldset,dl,dt,dd,ul,li,textarea,h1,h2,h3,h4,h5,h6,hr,pre{ margin:0 ; padding:0;}
+body{background:#fff;font:12px/22px "microsoft yahei",Arial;word-wrap:break-word;word-break:break-all;}
+button,input,select,textarea,label{border:0;outline:0;font-size:12px;font-family:'microsoft yahei';vertical-align:top;}
+h1, h2, h3, h4, h5, h6 {font-size:12px; font-weight:normal }
+table{border-collapse:collapse; border-spacing:0;border:none;}
+a{outline:none;text-decoration:none;}
+a:hover{text-decoration:none}
+a img,a,img{border:0;outline:0;vertical-align:top;}
+textarea{resize:none;}
+ul,li,ol {list-style:none;}
+i,em,cite{ font-style:normal;}
+/**清除浮动**/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+.clear{clear:both;height:0;font:0/0 Arial;visibility:hidden;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+/* main */
+#rotlay{width:600px;margin:0 auto;position: relative;}
+#rotlay .rotcanvas{width: 100%;}
+#rotlay .btn{position: absolute;cursor: pointer;}
